@@ -10,6 +10,13 @@ The design is available on Figma:
 
 - https://www.figma.com/file/6hGqKA5scrZJScb9KW3Hj2/Huckleberry
 
+
+## Result
+
+The final submission looks like:
+
+<img alt="Desktop-sized screenshot of the reuslting agency landing page" src="./docs/result.png" style="" />
+
 ## Setup Instructions
 
 This project uses an NPM package called "live-server" — it provides a basic local file server, so that you can view the HTML file in-browser, and automatically reloads the page when the HTML/CSS changes.
