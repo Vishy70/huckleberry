@@ -9,26 +9,35 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
-
-header
+/* Use the correct typography, and don't apply to html, then everything scales! */
+p
 {
-
+  font-size: 20px;
 }
 
+/* Use the correct typography */
+h1
+{
+  font-size: 2rem;
+}
+
+/* Use the right color */
 strong
 {
   color: #009966;
 }
 
+/* Use the correct typography, and include the shadow */
 main
 {
   background-color: #666666;
   box-shadow: 0 -0.5rem #999999;
 }
 
+/* The styling includes negative margin to look like a banner, shrink to content, and correct shadow & typography*/
 .indented-heading
 {
+  font-size: 1.5rem;
   background-color: #FFBF00;
   width: fit-content;
   padding: 1rem 2rem;
@@ -37,6 +46,7 @@ main
   box-shadow: 0 0.5rem #CC9900;
 }
 
+/* Use padding to correctly give space inside this container, as well as include shadow */
 .card
 {
   background-color: #FFFFFF;
@@ -44,16 +54,17 @@ main
   box-shadow: 0 0.5rem #999999;
 }
 
+/* This padding is included to align all text vertically */
 .intro-chunk
 {
   padding: 1.5rem;
-  max-width: 23rem;
 }
 
+/***** Use styling similar to the 'width lesson' in Module 1, to account for styling change on window resizing *****/
 .max-width-wrapper
 {
   padding-top: 4rem;
   padding-bottom: 4rem;
   margin: auto;
-  max-width: 40rem;
+  max-width: 50rem;
 }
